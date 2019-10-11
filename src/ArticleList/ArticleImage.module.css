@@ -1,0 +1,9 @@
+img{
+    border: 12px solid rgba(214, 10, 10, 0.966);
+    border-radius: 100%;
+    float:left;
+    /* width:20%; */
+    position: relative;
+    right:-30px;
+    top:0px;
+}

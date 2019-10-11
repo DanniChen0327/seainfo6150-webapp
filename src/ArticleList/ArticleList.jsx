@@ -8,9 +8,9 @@ const ArticleList = props => {
     <ul>
       
       {props.articles.map(article => (
-          <h1 key={article.slug}> <ArticleListItem article = {article}/></h1>
+          <li key={article.slug}> <ArticleListItem article = {article}/></li>
+
           
-        
       ))}
     </ul>
   );

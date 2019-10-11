@@ -1,24 +1,31 @@
-article{
-    border: 2px solid rgb(224, 25, 25);
-    padding: 15px;
-    padding-top: 5px;
-    padding-right: 35px;
-    margin-top: 37px;
-    margin-right: 40px;
-    margin-bottom: 37px;
-    background-color:rgb(245, 244, 244);
+section{
+    /* padding:10px; */
+    position: relative;
+    padding-inline-start: 350px;
+    padding-inline-end: 50px;
+    padding-bottom: 20px;
 }
+
 
 h1{
     color: rgb(218, 26, 26);
-    font-size:1.5em;
+    font-size:3em;
+    /* position: relative; */
+    /* right:-50px; */
 }
 
 p{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 25px;
+    /* position: relative; */
+    /* right:-50px; */
+    /* float:right;  */
+    /* width:75%; */
 }
 
 time{
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    /* position: absolute; */
+    /* right:650px; */
 }
