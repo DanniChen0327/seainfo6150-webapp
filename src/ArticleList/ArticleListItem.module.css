@@ -1,31 +1,30 @@
 section{
     /* padding:10px; */
+    justify-content: flex-start;
     position: relative;
-    padding-inline-start: 350px;
+    float: left;
+    padding-inline-start: 20px;
     padding-inline-end: 50px;
     padding-bottom: 20px;
 }
 
 
 h1{
+    
     color: rgb(218, 26, 26);
-    font-size:3em;
-    /* position: relative; */
-    /* right:-50px; */
+    font-size:2em;
+    
+    
 }
 
 p{
     font-weight: normal;
-    font-size: 25px;
-    /* position: relative; */
-    /* right:-50px; */
-    /* float:right;  */
-    /* width:75%; */
+    font-size: 15px;
+    
 }
 
 time{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    /* position: absolute; */
-    /* right:650px; */
+    
 }

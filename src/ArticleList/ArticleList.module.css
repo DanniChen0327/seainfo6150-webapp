@@ -1,11 +1,16 @@
 ul{
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(9,680px);
+    grid-column-gap: 25px;
+    justify-content:center;
+
     border: dashed rgb(128, 127, 127) ;
     border-radius: 20px;
-    margin: 40px;
+    margin: 10px;
     background-color: rgb(160, 159, 159);
 
 }
-
 li{
     list-style:none;
     border: 1.5px solid rgb(224, 25, 25);

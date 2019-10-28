@@ -16,14 +16,16 @@ const ArticleListItem = props => (
                 <title>Week6 assignment</title>
             </head>
 
-            <body>
+            <body >
                 <ArticleImage article = {props.article}/>
-                <section>
-                    <h1>{props.article.title}</h1> 
-                    <p>{props.article.shortText}</p>
-                    <time dateTime = {props.article.pubDate}>{props.article.pubDate}</time>
-                    <SlugButton article = {props.article}/>
+                <SlugButton article = {props.article}/>
+                <section id = "container">
+                    <h1 class = "item-h1">{props.article.title}</h1> 
+                    <p class = "item-p">{props.article.shortText}</p>
+                    <time class = "item -time" dateTime = {props.article.pubDate}>{props.article.pubDate}</time>
+                    
                 </section>
+                
             </body>
             
         </html>
