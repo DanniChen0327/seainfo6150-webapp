@@ -10,11 +10,8 @@ section{
 
 
 h1{
-    
     color: rgb(218, 26, 26);
     font-size:2em;
-    
-    
 }
 
 p{
@@ -27,4 +24,47 @@ time{
     font-size: 15px;
     font-weight: bold;
     
+}
+
+
+@media (min-width: 400px) {
+    h1{
+        font-size: 2.2em;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    time{
+        font-size:30px;
+    }
+}
+
+@media (min-width: 800px) {
+    h1{
+        font-size: 1.8em;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    time{
+        font-size:25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 1.5em;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    time{
+        font-size:20px;
+    }
 }

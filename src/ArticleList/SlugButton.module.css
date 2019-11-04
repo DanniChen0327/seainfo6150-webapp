@@ -3,14 +3,61 @@ button{
     justify-content: center;
     border: 2px solid rgb(230, 224, 224);
     border-radius: 10px;
-    width:400px;
+    width:100%;
     height: 40px;
     background-color: rgb(211, 3, 3);
     color:white;
+    float:middle;
     position: relative;
     left:20px;
-    top:380px;
+    /* top:100px; */
+    bottom:-20px;
     font-size: 15px;
     overflow: hidden;
 
+}
+
+@media (min-width: 400px) {
+    button{
+        width:100%;
+        height: 40px;
+        justify-content: center;
+        float:middle;
+        position: relative;
+        left:20px;
+        /* top:300px; */
+        bottom:-20px;
+        overflow: hidden;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 800px) {
+    button{
+        width:100%;
+        height: 40px;
+        justify-content: center;
+        float: middle;
+        position: relative;
+        left:20px;
+        /* top:300px; */
+        bottom:-20px;
+        overflow: hidden;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    button{
+        width:100%;
+        height: 40px;
+        justify-content: center;
+        float:middle;
+        position: relative;
+        left:20px;
+        /* top:300px; */
+        bottom:-20px;
+        overflow: hidden;
+        font-size: 15px;
+    }
 }
