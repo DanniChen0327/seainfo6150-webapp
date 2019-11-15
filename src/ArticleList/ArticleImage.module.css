@@ -6,9 +6,18 @@ img{
     position: relative;
     right:-10px;
     top:10px;
+    height: 100px;
+    width: 180px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 350px) {
+    img{
+    height: 120px;
+    width: 200px;
+    }
+}
+
+@media (min-width: 500px) {
     img{
     height: 150px;
     width: 280px;
@@ -22,7 +31,7 @@ img{
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     img{
     height: 110px;
     width: 200px;
